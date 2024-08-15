@@ -1,9 +1,10 @@
-
-
-
 body {
     width: 65%; /* Adjusts the width of the body */
+    font-family: 'Poppins', sans-serif;
     margin: 0 auto; /* Centers the body horizontally */
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
 }
 
 header {
@@ -20,33 +21,36 @@ header {
 }
 
 .contactos ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px; /* Spacing between items */
 }
-
 .contactos a {
     text-decoration: none;
     color: black;
 }
-
 .header-right {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Pushes this section to the right */
+    margin-left:850px; /* Pushes this section to the right */
 }
 
 .header-right ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px; /* Spacing between items */
 }
-
-.header-right a {
-    text-decoration: none;
-    color: black;
+.h3 img{
+    width: 120px;
+    height: 120px;
 }
+.navbar-nav .nav-link {
+    font-size: medium; /* Adjust size as needed */
+}
+
+
+

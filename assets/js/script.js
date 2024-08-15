@@ -33,7 +33,7 @@ $(document).ready(function () {
   });
   
   fetch(
-    "/assets/data/data.json"
+    "./assets/data/data.json"
   )
     .then((response) => response.json())
     .then((data) => {

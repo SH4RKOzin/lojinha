@@ -8,8 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
-    <link rel="stylesheet" href="/assets/js/script.js">
-    <link rel="stylesheet" href="/assets/css/style 1.css">
+    <link rel="stylesheet" href="./assets/js/script.js">
+    <link rel="stylesheet" href="./assets/css/style 1.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,63 +21,7 @@
     <!--<link rel="stylesheet" href="/assets/css/style.css">-->
 
     <style>
-        body {
-            width: 65%; /* Adjusts the width of the body */
-            font-family: 'Poppins', sans-serif;
-            margin: 0 auto; /* Centers the body horizontally */
-            padding: 0;
-            box-sizing: border-box;
-            font-size: medium;
-        }
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-            background-color: #fff; /* Background color of header */
-        }
-
-        .contactos {
-            display: flex;
-            align-items: center;
-        }
-
-        .contactos ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            gap: 20px; /* Spacing between items */
-        }
-        .contactos a {
-            text-decoration: none;
-            color: black;
-        }
-        .header-right {
-            display: flex;
-            align-items: center;
-            margin-left:850px; /* Pushes this section to the right */
-        }
-
-        .header-right ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            gap: 20px; /* Spacing between items */
-        }
-        .h3 img{
-            width: 120px;
-            height: 120px;
-        }
-        .navbar-nav .nav-link {
-            font-size: medium; /* Adjust size as needed */
-        }
-
-
-
-    
     </style>
 </head>
 <body>
@@ -153,21 +98,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/assets/img/image3.png" class="d-block w-100 "style="" alt="...">
+            <img src="./assets/img/image3.png" class="d-block w-100 "style="" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/image3.png" class="d-block w-100" alt="...">
+            <img src="./assets/img/image3.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img src="/assets/img/image3.png" class="d-block w-100" alt="...">
+            <img src="./assets/img/image3.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
@@ -187,14 +132,18 @@
 
 
 <!--SLIDER-->
-      <h2 style="text-align: center;">Nossos Produtos</h2>
-      <div class="slider js-slider">
-        
-      </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script type="text/javascript" src="/assets/script/script.js"></script>
+<h2>PRODUTOS EM DESTAQUE</h2>
+    <div class="slider js-slider"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+        integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
+        integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 
 </body>
 </html>
