@@ -130,7 +130,6 @@
       </div>
 <br>
 
-
 <!--SLIDER-->
 <h2>PRODUTOS EM DESTAQUE</h2>
     <div class="slider js-slider"></div>
@@ -144,6 +143,67 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="./assets/js/script.js"></script>
+
+
+
+    <div class="container">
+           <h2 class="title title-border mb-5">Nossos Parceiros</h2><!-- End .title -->
+           <div class="owl-carousel mb-5 owl-simple" data-toggle="owl" 
+               data-owl-options='{
+                   "nav": false, 
+                   "dots": true,
+                   "margin": 30,
+                   "loop": false,
+                   "responsive": {
+                       "0": {
+                           "items":2
+                       },
+                       "420": {
+                           "items":3
+                       },
+                       "600": {
+                           "items":4
+                       },
+                       "900": {
+                           "items":5
+                       },
+                       "1024": {
+                           "items":6
+                       },
+                       "1280": {
+                           "items":6,
+                           "nav": true,
+                           "dots": false
+                       }
+                   }
+               }'>
+               <a href="#" class="brand">
+                   <img src="./assets/img/marcas/1.png" alt="Apple">
+               </a>
+               <a href="#" class="brand">
+                   <img src="./assets/img/marcas/2.png" alt="Ms365">
+               </a>
+               <a href="#" class="brand">
+                   <img src="./assets/img/marcas/3.png" alt="PHC">
+               </a>
+               <a href="#" class="brand">
+                   <img src="./assets/img/marcas/4.png" alt="HP">
+               </a>
+               <a href="#" class="brand">
+                   <img src="./assets/img/marcas/5.png" alt="Dell">
+               </a>
+               <a href="#" class="brand">
+                   <img src="./assets/img/marcas/6.png" alt="Samsung">
+               </a>
+               <a href="#" class="brand">
+                   <img src="./assets/img/marcas/7.png" alt="Lenovo">
+               </a>
+                
+   
+           </div><!-- End .owl-carousel -->
+       </div><!-- End .container -->
+
+
 
 </body>
 </html>
