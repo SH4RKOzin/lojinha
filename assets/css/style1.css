@@ -42,8 +42,8 @@ h2::after {
   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
-  width: 100%;
-  max-width: 300px;
+  width: 90%;
+  max-width: 200px;
   display: flex !important;
   flex-direction: column;
   align-items: center;
@@ -66,7 +66,7 @@ h2::after {
 }
 
 .slider .card img.product {
-  width: 100%;
+  width: 90%;
 }
 
 .slider .card .title {
@@ -132,21 +132,21 @@ header {
     background-color: #fff; /* Background color of header */
 }
 
-.contactos {
-    display: flex;
-    align-items: center;
+.nav {
+  display: flex;
+  align-items: center;
 }
 
-.contactos ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px; /* Spacing between items */
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
 }
-.contactos a {
-    text-decoration: none;
-    color: black;
+.nav a {
+  text-decoration: none;
+  color: black;
 }
 .header-right {
     display: flex;
@@ -165,6 +165,17 @@ header {
     width: 120px;
     height: 120px;
 }
-.navbar-nav .nav-link {
-    font-size: medium; /* Adjust size as needed */
+.navbar-custom {
+  background-color: #f8f9fa;
+}
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+.owl-carousel .item {
+  text-align: center;
+  padding: 10px;
+}
+.owl-carousel img {
+  max-height: 60px; /* Ajuste a altura das imagens no carrossel */
+  object-fit: contain;
 }

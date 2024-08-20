@@ -51,6 +51,20 @@ header {
 .navbar-nav .nav-link {
     font-size: medium; /* Adjust size as needed */
 }
+.menu-brands.menu-col {
+    padding-top: 2rem;
+    margin-top: 0 !important;
+    border-top: .1rem solid #ebebeb
+}
 
+.menu-brands .brand {
+    display: flex !important
+}
+
+.menu-brands .col,.menu-brands [class*=col-] {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
 
 

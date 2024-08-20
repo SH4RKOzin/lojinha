@@ -80,8 +80,13 @@ $(document).ready(function () {
       price = price * 0.9;
       // price *= 0.9;
     }
-    return price.toLocaleString("pt-MZ", {
+    return price.toLocaleString("pt-pt", {
       style: "currency",
       currency: "MZN",
     });
   }
+
+//script do carossel de brands
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+    });
